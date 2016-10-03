@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>otodo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="src/css/bootstrap.min.css">
+  <link rel="stylesheet" href="src/css/index.css">
+  <script src="src/js/jquery1.12.4.min.js"></script>
+  <script src="src/js/bootstrap.min.js"></script>
+  <style>
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#myPage"><img src="src/img/logo.svg" width="50%;"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#pricing">PRICING</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-left">
+  <pre><h4>Lorem Ipsum is simply dummy text of the printing 
+and typesetting industry. Lorem Ipsum has been the 
+industry's standard dummy text ever since the 1500s</h4></pre>
+</div>
+<!-- side bar on right and content on left -->
+<div class="container">
+  <div class="row">
+    <div class="leftColumn">
+      <h2 id="strong" style="text-align:left; border:0;line-height:1.2; ">Lorem Ipsum is simply dummy text</h2><br/>
+      <h4 style="font-family: 'Merriweather', serif;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</h4><br/>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><br/>
+      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.<span class="blockquote"><i>
+For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</i><br/>
+<span style="float: right;">-Jane</span>
+</span>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p><br/>
+<!-- img left content right -->
+<div class="container-fluid text-center bg-grey">
+<h2 style="text-overflow: ellipsis;"><span>More items series</span></h2><br>
+<div class="media">
+  <div class="media-left">
+    <a href="#">
+      <img class="media-object" src="src/img/teaser-01.jpg" alt="more content1">
+    </a>
+  </div>
+  <div class="media-body text-left">
+    <h3 class="media-heading" id="strong">There are many variations</h4>
+    <p id="media-item">Randomised words which don't look even slightly believable</p>
+  </div>
+</div>
+<div class="media">
+  <div class="media-left">
+    <a href="#">
+      <img class="media-object" src="src/img/teaser-02.jpg" alt="more content2">
+    </a>
+  </div>
+  <div class="media-body text-left">
+    <h3 class="media-heading" id="strong">the majority have suffered alteration in some form, by injected humour</h4>
+    <p id="media-item">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything</p>
+  </div>
+</div>
+</div>
+    </div>
+    <div class="rightColumn">
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="navigation"> <h3>Submenu</h3><ul id="submenu"> <li><a href="#" style="width:100%">News</a> </li> <li> <a href="#">Technology</a> </li> <li> <a href="#">Sports</a> </li> <li> <a href="#">Contry</a> </li> </ul> </div>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-sm-12">
+            <div class="card hovercard">
+                <div class="cardheader">
+                </div>
+                <div class="avatar">
+                    <img alt="" src="src/img/people.jpg">
+                </div>
+                <div class="info">
+                    <div class="desc"><span id="strong">Name</span>Nomen Nescio</div>
+                    <div class="desc"><span id="strong">Email</span>nomen@example.com</div>
+                    <div class="desc"><span id="strong">Phone</span>+852 555 555</div>
+                </div>
+            </div>
+          </div>
+        <div class="col-sm-12">
+         <div id="send_message">
+              <h3>Send me a message</h3>
+  <form>
+<div class="form-group">
+      <label for="usr">Subject</label>
+      <input type="text" class="form-control" id="usr">
+    </div>
+    <div class="form-group">
+      <label for="comment">Message</label>
+      <textarea class="form-control" rows="5" id="comment"></textarea>
+    </div>
+   <button type="submit" class="btn btn-primary col-sm-12">
+  <i class="icon-user icon-white"></i> Send
+</button>
+  </form>
+</div>
+      </div>
+        <div class="col-sm-12">
+          <div id="map">
+             <h3>Or meet me at the office</h3>
+             <img class="map" src="src/img/map.gif" width="100%" alt="map">
+             <p style="padding:10px;">ONE MIDTOWN <br/>11 Hoi Shing Rd <br/> Tsuen wan</p>
+        </div>
+      </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Related articles -->
+<div class="container-fluid text-center bg-grey">
+  <h2><span>Related articles</span></h2><br>
+  <div class="row text-center">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="src/img/teaser-rect-01.jpg" alt="related1" width="400" height="300">
+        <h3 class="media-heading" id="strong">Popular belief</h3>
+        <p id="media-item">It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old, Richard McClintock, a Latin professor </p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="src/img/teaser-rect-02.jpg" alt="related2" width="400" height="300">
+        <h3 class="media-heading" id="strong">Lorem Ipsum is</h3>
+        <p id="media-item">Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="src/img/teaser-rect-03.jpg" alt="related3" width="400" height="300">
+        <h3 class="media-heading" id="strong">It has roots in a piece </h3>
+        <p id="media-item">from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source a Latin professor at Hampden-Sydney</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="src/img/teaser-rect-04.jpg" alt="related4" width="400" height="300">
+        <h3 class="media-heading" id="strong">San Francisco is in America</h3>
+        <p id="media-item">Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="src/img/teaser-rect-05.jpg" alt="related5" width="400" height="300">
+        <h3 class="media-heading" id="strong">Pasta is my favorite dish</h3>
+        <p id="media-item">This book is a treatise on the theory of ethics, very popular during the Renaissance</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container_black">
+    <div class="row">
+        <div class="col-sm-4 white" style="text-align:center;">
+            <h5 id="strong">About us</h5>
+            <p>Services</p>
+            <p>Products</p>
+            <p>Portfolio about companies</p>
+            <p>Partners</p>
+        </div>
+        <div class="col-sm-4 white text-center">
+            <h5 id="strong">Legal</h5>
+            <p>Terms</p>
+            <p>Conditions</p>
+            <p>Partnership</p>
+        </div>
+        <div class="col-sm-4 white">
+           <h5 id="strong">Developers</h5>
+            <p>Software</p>
+            <p>Engineering</p>
+            <p>Frontend Coding</p>
+            <p>Backend</p>
+        </div>
+    </div>
+</div>
+
+
+<!-- Add Google Maps -->
+
+</body>
+</html>
+
